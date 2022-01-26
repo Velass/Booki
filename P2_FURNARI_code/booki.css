@@ -1,0 +1,174 @@
+body
+{font-family: 'Raleway', sans-serif;}
+p
+{font-family: 'raleway', Arial, Helvetica, sans-serif;}
+
+header 
+{
+width: 50%;
+height: 175px;
+}
+
+
+
+#conteneurheader img
+{
+    width: 100px;
+    height: 50px;
+}
+
+nav
+{
+position: absolute;
+top: 10px;
+right: 500px;
+height: 10%;
+width: 10%;
+}
+
+#navigation
+{
+  display: flex;  
+  justify-content: space-between;
+}
+
+#recherchezone
+{
+    display: flex;
+
+}
+
+#lesfiltres
+{
+display: flex;
+
+}
+#plusde
+{
+    display: flex;
+}
+
+#conteneursection1
+{
+display: flex;
+
+}
+
+
+.conteneurgauche1
+{position: relative;
+    display: flex;
+    background-color: #F2F2F2;
+    flex-wrap: wrap;
+    justify-content: initial ;
+    align-content: center;
+    width: 70%;
+    height: 500px;
+    gap: 10px;
+}
+.conteneurgauche1 img
+{
+display: flex;
+    height: 50px;
+    width: 50px;
+   
+ 
+}
+
+.conteneurgauche1 h2
+{
+    background-color: red;
+    position: relative;
+    bottom: 100px;
+}
+
+.test2
+{
+display: flex;
+}
+
+.afficher
+{
+top: 450px;
+left: 30px;
+position: absolute;
+}
+
+.conteneurdroit1
+{
+  
+    background-color: #F2F2F2;
+    bottom: 20px;
+    width: 30%;
+}
+
+
+.conteneurdroit1 img
+{  width: 100px;
+    height: 50px;
+}
+
+
+
+
+.conteneurgauche2
+{
+    position: relative;
+   flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: initial;
+    align-content: center;
+    width: 40%;
+    height: 500px;
+    gap: 10px;
+}
+
+.conteneurgauche2 img
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.conteneurgauche2 h2
+{
+    display: flex;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    
+
+}
+
+#pagefooter
+{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    right: 100px;
+    background-color: #F2F2F2;
+    justify-content: space-between;
+}
+
+.test
+{
+    display: flex;
+}
+.vignette
+{
+    background-color: red;
+}
+
+.vignette img
+{
+
+}
+.test *
+{
+width: 25%;
+}
