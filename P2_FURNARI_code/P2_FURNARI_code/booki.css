@@ -1,0 +1,166 @@
+body
+{font-family: 'Raleway', sans-serif;}
+p
+{font-family: 'raleway', Arial, Helvetica, sans-serif;}
+
+header 
+{
+width: 50%;
+height: 175px;
+}
+
+.test4
+{
+ display: flex;
+ width: 200%;
+}
+
+#conteneurheader img
+{
+    width: 15%;
+}
+
+
+#navigation 
+{
+    background-color: coral;
+    display: flex;  
+    justify-content: normal;
+    gap: 30px;
+    width: 190%;
+    position: relative;
+    left: 200px;
+} 
+
+#recherchezone
+{
+    display: flex;
+
+}
+
+#lesfiltres
+{
+display: flex;
+
+}
+#plusde
+{
+    display: flex;
+}
+
+#conteneursection1
+{
+display: flex;
+
+}
+
+
+.conteneurgauche1
+{position: relative;
+    display: flex;
+    background-color: #F2F2F2;
+    flex-wrap: wrap;
+    justify-content: initial ;
+    align-content: center;
+    width: 70%;
+}
+.conteneurgauche1 img
+{
+display: flex;
+    height: 50px;
+    width: 50px;
+   
+ 
+}
+
+.conteneurgauche1 h2
+{
+    background-color: red;
+    position: relative;
+}
+
+.test2
+{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 60px;
+}
+
+
+.conteneurdroit1
+{
+  
+    background-color: #F2F2F2;
+    width: 30%;
+}
+
+
+.conteneurdroit1 img
+{  
+     width: 100px;
+    height: 50px;
+}
+
+
+
+
+.conteneurgauche2
+{
+    position: relative;
+   flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: initial;
+    align-content: center;
+    width: 40%;
+    height: 500px;
+    gap: 10px;
+}
+
+.conteneurgauche2 img
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.conteneurgauche2 h2
+{
+    display: flex;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    
+
+}
+
+#pagefooter
+{
+    display: flex;
+    background-color: #F2F2F2;
+    justify-content: space-between: left;
+    gap: 200px;
+}
+
+.test
+{
+    display: flex;
+}
+.vignette
+{
+    background-color: red;
+}
+
+.vignette img
+{
+
+}
+.test *
+{
+width: 25%;
+}
