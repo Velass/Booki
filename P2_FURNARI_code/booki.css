@@ -1,0 +1,186 @@
+body
+{font-family: 'Raleway', sans-serif;}
+p
+{font-family: 'raleway', Arial, Helvetica, sans-serif;}
+
+
+.navigation
+{
+    display: flex;
+}
+
+#conteneurheader img
+{
+    width: 5%;
+}
+
+#navigation 
+{
+    background-color: coral;
+    display: flex;  
+    justify-content: right;
+    gap: 30px;
+    width: 85%;
+    position: relative;
+} 
+
+#recherchezone
+{
+    display: flex;
+}
+
+#lesfiltres
+{
+    display: flex;
+}
+
+#plusde
+{
+    display: flex;
+}
+
+#conteneursection1
+{
+    display: flex;
+
+}
+#conteneursection1 img
+{
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.conteneurgauche1
+{
+    position: relative;
+    display: flex;
+    background-color: #F2F2F2;
+    flex-wrap: wrap;
+    justify-content: initial ;
+    align-content: center;
+    width: 70%;
+}
+
+.conteneurgauche1 img
+{
+    display: flex;
+    height: 100px;
+    width: 200px;
+}
+
+.conteneurgauche1 h2
+{
+    background-color: red;
+    position: relative;
+}
+
+.conteneurvignette1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.conteneurdroit1
+{
+    background-color: #F2F2F2;
+    width: 30%;
+}
+
+.conteneurdroit1 img
+{  
+    width: 100px;
+    height: 100px;
+}
+
+.conteneurdroit1 .vignette
+{
+    display: flex;
+}
+
+
+.conteneurgauche2
+{
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: initial;
+    align-content: center;
+    width: 40%;
+    height: 500px;
+    gap: 10px;
+}
+
+.conteneurgauche2 img
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.conteneurgauche2 h2
+{
+    display: flex;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+#pagefooter
+{
+    display: flex;
+    background-color: #F2F2F2;
+    justify-content: space-between: left;
+    gap: 200px;
+}
+
+.conteneurvignette2
+{
+    display: flex;
+}
+
+.conteneurvignette2 *
+{
+    width: 50%;
+    height: 100%;
+    gap: 50px;
+    position: relative;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conteneurvignette2 .vignette img
+{
+    width: 300px;
+    height: 500px;
+
+}
+
+.vignettecote
+{
+   background-color: red; 
+   gap: 100px;
+}
+
+.vignettecote img
+{
+width: 200px;
+height: 100px;
+border-radius: 10px 10px 0px 0px;
+}
+
+
+.vignette
+{
+    background-color: red;
+}
+
+
