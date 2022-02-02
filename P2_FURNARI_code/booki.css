@@ -1,0 +1,204 @@
+body
+{font-family: 'Raleway', sans-serif;}
+p
+{font-family: 'raleway', Arial, Helvetica, sans-serif;}
+
+
+.navigation
+{
+    display: flex;
+}
+
+#conteneurheader img
+{
+    width: 5%;
+}
+
+#navigation 
+{
+    background-color: coral;
+    display: flex;  
+    width: 200px;
+    position: absolute;
+    justify-content: space-evenly;
+    right: 0;
+    top: 0%;
+} 
+
+#recherchezone
+{
+    display: flex;
+}
+
+#lesfiltres
+{
+    display: flex;
+}
+
+#plusde
+{
+    display: flex;
+}
+
+#conteneursection1
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+#conteneursection1 img
+{
+    border-radius: 10px 10px 0px 0px;
+}
+
+#conteneursection2 h2
+{
+    left: 40px;
+    position: relative;
+}
+   
+
+.conteneurgauche1
+{
+    position: relative;
+    display: flex;
+    background-color: #2bb91f;
+    flex-wrap: wrap;
+    justify-content: initial ;
+    align-content: center;
+    width: 60%;
+}
+
+.conteneurgauche1 img
+{
+    display: flex;
+    height: 100px;
+    width: 200px;
+}
+
+.conteneurgauche1 h2
+{
+    background-color: red;
+    position: relative;
+}
+
+.conteneurvignette1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.conteneurdroit1
+{
+    background-color: #0e1bd5;
+    width: 30%;
+}
+
+.conteneurdroit1 img
+{  
+    width: 100px;
+    height: 100px;
+}
+
+.conteneurdroit1 .vignette
+{
+    display: flex;
+}
+
+
+.conteneurgauche2
+{
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: initial;
+    align-content: center;
+    width: 40%;
+    height: 500px;
+    gap: 10px;
+}
+
+.conteneurgauche2 img
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.conteneurgauche2 h2
+{
+    display: flex;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+
+.conteneurvignette2
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.conteneurvignette2 div
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.conteneurvignette2 .vignette img
+{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.conteneurvignette2 h3
+{
+    position: relative;
+    left: 15px;
+}
+
+.vignettecote img
+{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.conteneurvignette2 .vignette
+{
+    border: 3px whitesmoke solid;
+}
+
+.conteneurvignette2 .vignettecote
+{
+    border: 3px whitesmoke solid;
+}
+
+#pagefooter
+{
+    display: flex;
+    background-color: #F2F2F2;
+    gap: 200px;
+    position: relative;
+    top: 30px;
+}
