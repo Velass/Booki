@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="booki.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">  
+        <script src="https://kit.fontawesome.com/fa03abbeaf.js" crossorigin="anonymous"></script>
         <title>Booki</title>
     </head>
     <body>
@@ -31,40 +32,45 @@
     </header>
 
     <section>
-        <div id="recherchezone">
-            <div class="imagegéo">
-                <p>image géoloc</p> 
-            </div>
-            <div class="barrederecherche">
-                <form method="post" action="traitement.php">
-                <input type="text" name="ville,pays" id="ville,pays" placeholder="Marseille,Paris" />
-                </form>
-            </div>
-            <div class="boutonrecherche">
-                <p>image rechercher</p>
-            </div>
+        <div class="recherche">
+            <form method="post" action="#">
+              <i class="fas fa-map-marker-alt"></i>
+              <input type="text" name="Ville" placeholder="Marseille, France" />
+              <button type="submit" value="Rechercher" id="bouton">
+                <p>Rechercher</p>
+              </button>
+            </form>
+          </div>
         </div>
         <div id="lesfiltres">
             <h3>Filtres</h3>
-            <div class="Èconomique">
-                <img src="photoaavoir">
-                <h4>Èconomique</h4>
+            <div class="filtre">
+                <div class="photofiltre">
+                    <i class="fas fa-solid fa-money-bill-wave"></i>
+                    <h4>Èconomique</h4>
+                </div>
             </div>
-            <div class="Familial">
-                <img src="photoaavoir">
-                <h4>Familial</h4>
+            <div class="filtre">
+                <div class="photofiltre">
+                    <i class="fas fa-solid fa-child"></i>
+                    <h4>Familial</h4>
+                </div>
             </div>             
-            <div class="Romantique">
-                <img src="photoaavoir">
-                <h4>Romantique</h4>
+            <div class="filtre">
+                <div class="photofiltre">
+                    <i class="fas fa-solid fa-heart"></i>
+                    <h4>Romantique</h4>
+                </div>
             </div>             
-            <div class="Animaux">
-                <img src="photoaavoir">
-                <h4>Animaux autorisés</h4>
+            <div class="filtre">
+                <div class="photofiltre">
+                    <i class="fas fa-solid fa-dog"></i>
+                    <h4>Animaux autorisés</h4>
+                </div>
             </div>
         </div>
         <div id="plusde">
-            <img src="photoaavoir">
+            <div class="info"><i class="fas fa-solid fa-info"></i></div>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
     </section>
@@ -79,31 +85,55 @@
                         <div class="note">
                             <h3>Auberge la Cannebière</h3>
                             <p>Nuit à partie de <strong>25€</strong></p>
-                            <p>Systeme notation 4 étoiles</p>
+                            <div class="etoile">
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilevide"><i class="fas fa-star"></i></div>
+                            </div>
                         </div>
                     </div>
                     <div class="vignette">
                         <img src="images/hebergements/image/fred-kleber-gTbaxaVLvsg-unsplash.jpg"/>
                         <div class="note">
                             <h3>Hôtel du port</h3>
-                            <p>Nuit à partie de <strong>52€</strong></p>
-                            <p>Systeme notation 5 étoiles</p>
+                            <p>Nuit à partie de 52<strong>€</strong></p>
+                            <div class="etoile">
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            </div>
                         </div>
                     </div>
                     <div class="vignette">
                         <img src="images/hebergements/image/reisetopia-B8WIgxA_PFU-unsplash.jpg"/>
                         <div class="note">
                             <h3>Hôtel les mouettes</h3>
-                            <p>Nuit à partie de <strong>76€</strong></p>
-                            <p>Systeme notation 4 étoiles</p>
+                            <p>Nuit à partie de 76<strong>€</strong></p>
+                            <div class="etoile">
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilevide"><i class="fas fa-star"></i></div>
+                            </div>
                         </div>
                     </div>
                     <div class="vignette">
                         <img src="images/hebergements/image/annie-spratt-Eg1qcIitAuA-unsplash.jpg"/>
                         <div class="note">
-                            <h3>hôtel de la mer</h3>
-                            <p>Nuit à partie de <strong>46€</strong></p>
-                            <p>Systeme notation 3 étoiles</p>
+                            <h3>Hôtel de la mer</h3>
+                            <p>Nuit à partie de 46<strong>€</strong></p>
+                            <div class="etoile">
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilevide"><i class="fas fa-star"></i></div>
+                                <div class="étoilevide"><i class="fas fa-star"></i></div>
+                            </div>
                         </div>
                     </div>
                     <div class="vignette">
@@ -111,50 +141,86 @@
                         <div class="note">
                             <h3>Auberge le Panier</h3>
                             <p>Nuit à partie de <strong>23€</strong></p>
-                            <p>Systeme notation 4 étoiles</p>
+                            <div class="etoile">
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilevide"><i class="fas fa-star"></i></div>
+                            </div>
                         </div>
                     </div>
                     <div class="vignette">
                         <img src="images/hebergements/image/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"/>
                         <div class="note">
                             <h3>Hôtel chez Amina</h3>
-                            <p>Nuit à partie de <strong>96€</strong></p>
-                            <p>Systeme notation 5 étoiles</p>
+                            <p>Nuit à partie de 96<strong>€</strong></p>
+                            <div class="etoile">
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                                <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <p><span class="afficher">Afficher plus</span></p>
+                <p><a href="#"><span class="afficher">Afficher plus</span></a></p>
             </div>
             <div class="conteneurdroit1">
+                <div class="populaire">
                 <h2>Les plus populaires</h2>
+                <div class="chart"><i class="fas fa-solid fa-chart-line"></i></div>
+                </div>
                 <div class="vignette">
                     <img src="images/hebergements/image/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"/>
                     <div class="note">
                         <div>
-                            <h3>Hôtel Le soleil du matin</h3>
-                            <p>Nuit à partir de <strong>128€</strong></p>
+                            <h3>Hôtel Le soleil du 
+                            matin</h3>
+                            <p>Nuit à partir de 128<strong>€</strong></p>
                         </div>
-                        <p>Notation etoiles 5</p>
+                        <div class="etoile">
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                        </div>
                     </div>
                 </div>
                 <div class="vignette">
                     <img src="images/hebergements/image/aw-creative-VGs8z60yT2c-unsplash.jpg"/>
                     <div class="note">
                         <div>
-                            <h3>Hôtel Le soleil du matin</h3>
-                            <p>Nuit à partir de <strong>128€</strong></p>
+                            <h3>Au cœur de l'eau 
+                            Chambres d'hôtes</h3>
+                            <p>Nuit à partir de 71<strong>€</strong></p>
                         </div>
-                        <p>Notation etoiles 4</p>
+                        <div class="etoile">
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilevide"><i class="fas fa-star"></i></div>
+                        </div>
                     </div>
                 </div>
                 <div class="vignette">
                     <img src="images/hebergements/image/febrian-zakaria-sjvU0THccQA-unsplash.jpg"/>
                     <div class="note">
                         <div class="information">
-                            <h3>Hôtel Le soleil du matin</h3>
-                            <p>Nuit à partir de <strong>128€</strong></p>
+                            <h3>Hôtel Tout bleu et 
+                            Blanc</h3>
+                            <p>Nuit à partir de 68<strong>€</strong></p>
                         </div>
-                        <p>Notation etoiles 4</p> 
+                        <div class="etoile">
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilepleine"><i class="fas fa-star"></i></div>
+                            <div class="étoilevide"><i class="fas fa-star"></i></div>
+                        </div>
                     </div>
                 </div>  
             </div>

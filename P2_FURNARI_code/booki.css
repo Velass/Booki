@@ -1,7 +1,7 @@
 body
 {font-family: 'Raleway', sans-serif;}
 p
-{font-family: 'raleway', Arial, Helvetica, sans-serif;}
+{font-family: Arial, 'raleway', Helvetica, sans-serif;}
 
 
 .navigation
@@ -9,37 +9,192 @@ p
     display: flex;
 }
 
+
 #conteneurheader img
 {
-    width: 5%;
+    width: 10%;
+    margin-left: 10px;
+    padding: 20px;
 }
 
 #navigation 
 {
-    background-color: coral;
     display: flex;  
-    width: 200px;
+    width: 300px;
     position: absolute;
     justify-content: space-evenly;
     right: 0;
     top: 0%;
+    margin: 20px;
 } 
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+#navigation a
+{
+
+    margin-top: -18px;
+    padding: 40px;
+    font-size: 16px;
+}
+nav a:hover
+{
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+.titre
+{
+    line-height: 1px;
+    margin-left: 35px;
+}
 
 #recherchezone
 {
     display: flex;
+    height: 45px;
+    border: 3px whitesmoke solid;
+    border-radius: 20px 20px 20px 20px;
+    width: 30%;
+}
+.recherche form
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.recherche i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 53px;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 35px;
+}
+.recherche input
+{
+    height: 50px;
+    border: solid 1px; 
+    border-color: #F2F2F2;
+    width: 200px;
+}
+.recherche button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    width: 145px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0065FC;
+    border: 1px solid #0065FC;
+}
+.recherche p
+{
+    font-size: 16px;
+    color: white;
+}
+
+#villepays
+{  
+    padding: 15px;
+    border: white;
+}
+   
+
+.boutonrecherche
+{
+    background-color: #0065FC;
 }
 
 #lesfiltres
 {
     display: flex;
+    justify-content: space-between;
+    width: 990px;
+    margin: 20px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#lesfiltres h3
+{
+    margin-left: 40px;
+    display: flex; 
+    align-items: center;
+}
+
+.filtre
+{
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    border-radius: 30px;
+    border-color: #F2F2F2;
+}
+
+.filtre h4
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.photofiltre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 20px;
+}
+
+.photofiltre i
+{
+    color: blue;
+    background-color: #deebff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -35px;
+    border-radius: 50%;
 }
 
 #plusde
 {
     display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-evenly;
+    background-color: white;
 }
 
+.info
+{
+    color: #0065FC;
+    border: 2px #F2F2F2 solid;
+    padding: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    
+}
+
+.fa-info 
+{
+    font-size: 13px;
+    position: relative;
+    bottom: 5px;
+    left: 3px;
+}
+   
 #conteneursection1
 {
     display: flex;
@@ -47,40 +202,61 @@ p
     width: 100%;
 
 }
-#conteneursection1 img
-{
-    border-radius: 10px 10px 0px 0px;
-}
 
 #conteneursection2 h2
 {
-    left: 40px;
-    position: relative;
-}
-   
+    margin-left: 60px;
+}  
 
 .conteneurgauche1
 {
-    position: relative;
     display: flex;
-    background-color: #2bb91f;
+    background-color: #F2F2F2;
     flex-wrap: wrap;
-    justify-content: initial ;
-    align-content: center;
     width: 60%;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 .conteneurgauche1 img
 {
     display: flex;
     height: 100px;
-    width: 200px;
+    width: 208px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .conteneurgauche1 h2
 {
-    background-color: red;
-    position: relative;
+    margin-left: 80px;
+}
+
+.conteneurgauche1 h3
+{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.conteneurgauche1 .vignette p
+{
+    margin-top: -10px;
+}
+
+.conteneurgauche1 .note
+{
+    margin-left: 5px;
+}
+
+
+.conteneurgauche1 .vignette
+{
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    border: solid;
+    border-color: white;
+    height: 45%;
 }
 
 .conteneurvignette1
@@ -89,26 +265,90 @@ p
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 30px;
+    margin-left:  30px;
+    margin-right: 30px;
+}
+
+
+
+.afficher
+{
+    position: relative;
+    left: 80px;
+    top: 20px;
+    font-weight: bold;
 }
 
 .conteneurdroit1
 {
-    background-color: #0e1bd5;
+    background-color: #F2F2F2;
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 20px;
+
 }
 
 .conteneurdroit1 img
 {  
     width: 100px;
-    height: 100px;
+    height: 95%;
+    border-radius: 10px 0px 0px 10px;
+    border: solid;
+    border-color: white;
+}
+
+.conteneurdroit1 h3
+{
+    white-space: pre-line;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.conteneurdroit1 h3
+{
+    margin-right: 50px;
+}
+
+.conteneurdroit1 p
+{
+    margin-top: -15px;
 }
 
 .conteneurdroit1 .vignette
 {
     display: flex;
+    width: 85%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
+.conteneurdroit1 .note
+{
+    height: 120px;
+}
+
+
+.conteneurdroit1 .populaire
+{
+    display: flex;
+    justify-content: space-around
+}
+
+.populaire h2
+{
+    margin-right: 40px;
+}
+
+.chart
+{
+    margin-top: 25px;
+    font-size: 20px;
+}
 
 .conteneurgauche2
 {
@@ -135,11 +375,7 @@ p
 .conteneurgauche2 h2
 {
     display: flex;
-    top: 0;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    position: absolute;
+
 }
 
 
@@ -164,7 +400,7 @@ p
 .conteneurvignette2 .vignette img
 {
     width: 300px;
-    height: 500px;
+    height: 400px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 
@@ -186,14 +422,25 @@ p
 
 .conteneurvignette2 .vignette
 {
-    border: 3px whitesmoke solid;
+    box-shadow: 3px 3px 3px 3px #F2F2F2;
 }
 
 .conteneurvignette2 .vignettecote
 {
-    border: 3px whitesmoke solid;
+    box-shadow: 3px 3px 3px 3px #F2F2F2;
 }
 
+
+div.vignettecotedroit:nth-child(4) > div:nth-child(2) > img:nth-child(1) 
+{
+    height: 100px;
+}
+
+  div.vignettecotedroit:nth-child(2) > div:nth-child(2) > img:nth-child(1) 
+{
+    height: 100px;
+}
+  
 #pagefooter
 {
     display: flex;
@@ -201,4 +448,26 @@ p
     gap: 200px;
     position: relative;
     top: 30px;
+}
+
+.etoile
+{
+    display: flex;
+}
+
+.étoilepleine
+{
+    color: #0065FC;
+}
+
+.étoilevide
+{
+    color: #F2F2F2
+}
+
+
+
+.vignette
+{
+    box-shadow: 3px 3px 3px 3px whitesmoke;
 }
